@@ -26,6 +26,7 @@ body {
     border-bottom-width: 4px; /* border-b-4 */
     border-color: #fbbf24; /* border-amber-400 */
     width: 100%; /* w-full */
+    text-align: center;
 }
 
 .header-title {
