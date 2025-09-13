@@ -1,0 +1,15 @@
+/* Base styles for mobile view */
+
+/* Main content grid for mobile */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for mobile */
+    gap: 1.5rem; /* Space between cards */
+    padding: 1.5rem; /* Adjusted padding for main content */
+    align-items: start; /* Align items to the start of the grid cell */
+}
+
+.card-section {
+    width: 100%; /* Ensure cards take full width */
+    margin-bottom: 0; /* Handled by grid gap */
+}
